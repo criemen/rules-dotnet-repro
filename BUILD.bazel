@@ -14,5 +14,6 @@ csharp_binary(
     targeting_packs = ["@paket.main//microsoft.netcore.app.ref"],
     deps = [
         "@paket.main//xunit",
+        # "@paket.main//xunit.extensibility.core",
     ],
 )
