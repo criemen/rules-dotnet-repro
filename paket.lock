@@ -2,6 +2,7 @@ STORAGE: NONE
 RESTRICTION: == net8.0
 NUGET
   remote: https://api.nuget.org/v3/index.json
+    Microsoft.NETCore.App.Ref (8.0.1)
     xunit (2.6.6)
       xunit.analyzers (>= 1.10)
       xunit.assert (>= 2.6.6)

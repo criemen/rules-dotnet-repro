@@ -3,3 +3,4 @@ framework: net8.0
 
 storage: none
 nuget xunit
+nuget Microsoft.NETCore.App.Ref 8.0.1

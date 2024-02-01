@@ -2,3 +2,7 @@
 paket-files/
 bin/
 obj/
+bazel-bin
+bazel-out
+bazel-repro
+bazel-testlogs

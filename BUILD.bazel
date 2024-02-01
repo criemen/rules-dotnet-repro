@@ -1,0 +1,18 @@
+load(
+    "@rules_dotnet//dotnet:defs.bzl",
+    "csharp_binary",
+)
+
+csharp_binary(
+    name = "Program",
+    srcs = glob([
+        "*.cs",
+    ]),
+    nullable = "enable",
+    runtime_identifier = "osx-x64",
+    target_frameworks = ["net8.0"],
+    targeting_packs = ["@paket.main//microsoft.netcore.app.ref"],
+    deps = [
+        "@paket.main//xunit",
+    ],
+)
